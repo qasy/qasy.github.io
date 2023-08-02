@@ -33,14 +33,13 @@ h1 {
 }
 
 h2 {
-    background-color: #739DA8;
+    /*background-color: #739DA8;*/
     margin: 10px 0px;
     padding: 10px 0px;
-    text-shadow: 1px 1px 5px white;
+    /*text-shadow: 1px 1px 5px white;*/
 }
 
-h1,
-h2 {
+h1 {
     font-size: 50px;
     font-weight: 900;
     text-align: center;
