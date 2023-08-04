@@ -7,26 +7,26 @@
 */
 
 html {
-    background-color: #C78376;
+    background-color: #c78376;
 }
 
 body {
     width: 800px;
     margin: auto;
     padding: 0px;
-    background-color: #EDD5D1;
+    background-color: #edd5d1;
 }
 
 .el {
-    border: 3px solid #505B55;
+    border: 3px solid #505b55;
 }
 
 .text {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 h1 {
-    background-color: #739DA8;
+    background-color: #739da8;
     margin: 0;
     padding: 20px 0;
     text-shadow: 1px 1px 5px white;
