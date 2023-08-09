@@ -2,15 +2,14 @@
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Alexey Ivanov" />
-    <meta name="description"
-        content="Данный ресурс преследует цель стать хранилищем заметок в процессе изучения веба." />
-    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon" />
-    <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="author" content="Alexey Ivanov">
+    <meta name="description" content="Данный ресурс преследует цель стать хранилищем заметок в процессе изучения веба.">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <link href="./styles/style.css" rel="stylesheet" type="text/css">
     <!--link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin-->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <title>My Little Codebook</title>
 </head>
 
@@ -105,6 +104,10 @@
                                             target="_blank">От &lt;object&gt; к &lt;iframe&gt; - другие технологии
                                             внедрения</a>
                                     </li>
+                                    <li>
+                                        <a href="https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"
+                                            target="_blank">Добавление векторной графики в веб-документ</a>
+                                    </li>
 
                                 </ol>
                             </li>
@@ -113,25 +116,46 @@
                 </ul>
             </section>
 
-            <video controls width="400" width="400" poster="images/index-coffee-1.jpg">
-                <source src="/home/aleksey/Downloads/test_video.mp4" type="video/mp4" />
-                <!--source src="https://www.youtube.com/watch?v=6stlCkUDG_s&list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_"
-                    type="video/webm" /-->
-                <p>
-                    Ваш браузер не поддерживает HTML5 видео. Используйте
-                    <a href="https://www.youtube.com/watch?v=6stlCkUDG_s&list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_">ссылку
-                        на видео</a> для доступа.
-                </p>
-            </video>
+            <section>
+                <img src="./images/elephant.svg" width="200" alt="triangle with all three sides equal" />
+                <svg version="1.1" baseProfile="full" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="black" />
+                    <circle cx="200" cy="100" r="90" fill="blue" />
+                </svg>
 
-            <figure>
-                <a href="./test.html" title="Отвлекающая картинка" target="_blank">
-                    <img class="el" src="./images/index-coffee-1.jpg"
-                        alt="На поверхности стола лежит надпись 'кофе', а вокруг рассыпаны зерна кофе." />
 
-                </a>
-                <figcaption>Россыпь кофе на столе</figcaption>
-            </figure>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31997.569579809544!2d30.293100049999996!3d59.9180683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1691567244657!5m2!1sru!2sru"
+                        width="600" height="450" style="border:0;">
+                    </iframe>
+                </div>
+
+                <div>
+                    <video controls width="400" poster="images/index-coffee-1.jpg">
+                        <source src="/home/aleksey/Downloads/test_video.mp4" type="video/mp4">
+                        <source
+                            src="https://www.youtube.com/watch?v=6stlCkUDG_s&list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_"
+                            type="video/webm">
+                        <p>
+                            Ваш браузер не поддерживает HTML5 видео. Используйте
+                            <a
+                                href="https://www.youtube.com/watch?v=6stlCkUDG_s&list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_">ссылку
+                                на видео</a> для доступа.
+                        </p>
+                    </video>
+                </div>
+
+
+                <figure>
+                    <a href="./test.html" title="Отвлекающая картинка" target="_blank">
+                        <img class="el" src="./images/index-coffee-1.jpg"
+                            alt="На поверхности стола лежит надпись 'кофе', а вокруг рассыпаны зерна кофе.">
+
+                    </a>
+                    <figcaption>Россыпь кофе на столе</figcaption>
+                </figure>
+            </section>
         </article>
 
         <aside>
@@ -150,7 +174,9 @@
                         target="_blank">Сервис валидации HTML разметки</a>
                 </li>
             </ul>
+
         </aside>
+
         <button>Change user</button>
     </main>
 
