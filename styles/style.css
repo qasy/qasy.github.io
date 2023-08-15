@@ -1,10 +1,46 @@
-/*colors: 
-#505B55
-#C78376
-#EDD5D1
-#7D646A
-#739DA8
-*/
+h1 {
+    color: red;
+}
+
+p,
+li {
+    color: green;
+
+}
+
+li {
+    list-style-type: square;
+}
+
+.top_li {
+    color: rebeccapurple;
+
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+/* 
+//colors: 
+//#505B55
+//#C78376
+//#EDD5D1
+//#7D646A
+//#739DA8
+
 
 html {
     background-color: #c78376;
@@ -33,10 +69,10 @@ h1 {
 }
 
 h2 {
-    /*background-color: #739DA8;*/
-    margin: 10px 0px;
-    padding: 10px 0px;
-    /*text-shadow: 1px 1px 5px white;*/
+background-color: #739DA8;
+margin: 10px 0px;
+padding: 10px 0px;
+text-shadow: 1px 1px 5px white;
 }
 
 h1 {
@@ -113,3 +149,5 @@ tfoot {
 caption {
     padding: 10px;
 }
+
+*/
