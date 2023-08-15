@@ -1,38 +1,3 @@
-h1 {
-    color: red;
-}
-
-p,
-li {
-    color: green;
-
-}
-
-li {
-    list-style-type: square;
-}
-
-.top_li {
-    color: rebeccapurple;
-
-}
-
-a:link {
-    color: pink;
-}
-
-a:visited {
-    color: green;
-}
-
-a:hover {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-
-
-
 /* 
 //colors: 
 //#505B55
@@ -151,3 +116,35 @@ caption {
 }
 
 */
+
+h1 {
+    color: red;
+}
+
+p,
+li {
+    color: green;
+
+}
+
+li {
+    list-style-type: square;
+}
+
+.top_li {
+    color: rebeccapurple;
+
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
